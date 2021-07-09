@@ -64,3 +64,16 @@ echo num;
     ** exponensial
     10**3 = 10 * 10 * 10
  -->
+
+<!-- PHP print "1" For True 
+    and print " "  For False-->
+
+<!-- == equal to 
+    === eqal vlaue as well as data type
+    <> not equal 
+    != not equal
+    !== not eqaul as well as not equal datatype
+    <=> spaceship oprator ($x <=> $y) 
+    if $x < $y it return -1 
+    if $x == $y it return 0
+    if $x > $y it return 1  -->
