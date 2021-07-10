@@ -265,3 +265,66 @@ array_chunk($arraname, pair(1..number) , preserved vlaue default = false)
 return new associative array which contain arrays of paire number values  if 3 
 pair of 3 3 values 
 if preserved is true show also keys values -->
+
+<!-- array_flip($arraname); return new array in which the keys of old array become values in new array and values of old array become keys of new array
+    array_change_key_case($arraname, case); case is CASE_UPPER or CASE_LOWER. this function return new array in which key chage to upper or lower case 
+    (these function use for associative arrays)  -->
+
+<!-- array_sum($arraname); return a value of sum of all values of array (arraySum). this function is sum only integer or float value
+    array_product($arraname); return a value of product(*) of all values of array (arrays values product). this function is product only integer or float value -->
+
+<!-- array_rand($arraname, number); number => how many random number require.function return index value of random values from  array
+    shuffle($arraname);  randomly suffle values of existing array-->
+
+<!-- array_fill(index, number, value); index => starting index , number=> length of arry , value => assign this value at all indexes. function make a new array
+    array_fill_keys($arraname, value ); return new array in which keys are value of old array and value is same as in parimiter. avalues is same for all -->
+
+<!-- array_walk($arraname, funcrionname, parameter); if a want to run function for all values of array then this function used, parameter is used if we want to pass extra papermerts
+    this function is used for 1D array
+    arrar_walk_recursive($arraname, funcrionname, parameter)
+    this function is used for multi D array-->
+
+<!-- array_map(functionname, array1, array2,array3...);return new array. functionality is same as walk functions
+in this functioname return a value
+in this we also pass many arrays at same time  -->
+
+<!-- array_reduce($arraname, functionname, initial(optional)) ; return array single value,if a want to run function for all values of array then this function used,
+https://www.youtube.com/watch?v=XDkOts9PkyE&list=PL0b6OzIxLPbyrzCMJOFzLnf_-_5E_dkzs&index=57  -->
+
+<!-- array sorting
+1.sort($arraname); change in existing array . work for only indexed array
+2.rsort($arraname) ; change in existing array . work for only indexed array (reverse sort)
+3.arsort(); associative reverse sort sort
+4.asort($array); associative sort
+5.krsort($array); reverse sorting according keys
+6.ksort($array); sorting according keys
+7.narcasesort($arraname); natural order sorting not see only first letter, casesencitive
+8.natsort($arraname); natural order sorting(not see only first letter)
+9.array_multisort($array1, $array2,...); sort many arrays at same time. (lenth of both arrays must same)
+10.array_reverse($arraname); reverse array, return new array.
+ -->
+
+<!-- array teversing
+1.next($arraname); move inner pointer to next. pointer is bydefault at 0 index
+2.prev($arraname); move inner pointer to previous.
+3.end($arraname); move inner pointer to at end.
+4.each($arraname); return new array with keys and values of current pointer postion
+5.pos($arraname); return  value of cuurent pointer location 
+6.current($arraname); return value of cuurent pointer location
+7.key($arraname); return postion key of cuurent pointer location
+8.reset($arraname); reset ppointer location to 0
+ -->
+
+<!-- list(variable1, variable2, variable3,...) = $arraname; if we want to store all values of array into variables one by on then we use this function
+work only for indexed array and associative array with  -->
+
+<!-- extract($arry, extract_rules, prefix); if we want to store all values of array into variables one by on then we use this function. function make keys as variablesnames
+compact(var1, var2,var3,...); convert variables into associative array -->
+
+<!-- range(start, end, step); return array make new array start to end. step is diff
+range(1,5) = [1,2,3,4,5]   -->
+
+<!-- explode(separator, string, limit); return array with sparated by sparator
+explode(" ", "Abdul mAJid ok") = [Abdul, mAJid, ok]; 
+implode(sparator, array); return string 
+implode("-", [Abdul, mAJid, ok]); = "Abdul-mAJid-ok" .return string -->
