@@ -3,7 +3,7 @@ str_split(string , length)
 str_split("Majid") = [M, a,j ,i, d]-->
 
 <!-- chunk_split(string, length, chr)
-chunk_split("majid", 2, .) = ma.ji.d-->
+chunk_split("Majid", 2, .) = Ma.ji.d-->
 
 <!-- strtolower(string) 
 strtoupper(string)
@@ -14,3 +14,5 @@ lcfirst(string) > first char of string become lower -->
 <!-- strlen(string)
 str_word_count(string, return(0,1,2))
 substr_count(string, substring, start, lentght) -->
+
+There is some more function of string but not listed here.
