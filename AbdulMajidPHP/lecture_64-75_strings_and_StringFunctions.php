@@ -15,4 +15,4 @@ lcfirst(string) > first char of string become lower -->
 str_word_count(string, return(0,1,2))
 substr_count(string, substring, start, lentght) -->
 
-There is some more function of string but not listed here.
+<!--There is some more function of string but not listed here.-->
